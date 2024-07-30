@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:lawngreen;
+}
+
+#navbar {
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+#navbar a:hover {
+    background-color: #575757;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.flex-container:hover {
+   background-color: aqua;
+}
+
+.entity-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 15px;
+    flex: 1 1 200px;
+    box-shadow: 0 5px 5px red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:green;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875em;
+}
+img{
+    height: 300px;
+    width: 500px;
+    border: 3px solid palevioletred;
+}
+figcaption{
+    color:black;
+    font-size: x-large;
+}
+h1{
+    color: green;
+}
+h1:hover{
+    color: white;
+}
